@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(78, 196, 139, 0.7);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.template{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+    border-radius: 3em;
+    background-color: rgba(19, 32, 168, 0.179);
+    padding: 2em;
+    width: 20em;
+    text-align: center;
+}
+input, button{
+    height: 10%;
+    border-radius: 1em;
+    text-align: center;
+}
